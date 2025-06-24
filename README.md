@@ -185,11 +185,11 @@ These choices align with modern Python backend best practices and support future
 
 **High-level UML**
 
-![Architecture Diagram](High-level Architucure UML.png)
+![Architecture Diagram](High-level%20Architucure%20UML.png)
 
 **In-Depth UML**
 
-![Architecture Diagram](In-Depth Architucture UML.png)
+![Architecture Diagram](In-Depth%20Architucture%20UML.png)
 
 
 ## 8\. API Specification
