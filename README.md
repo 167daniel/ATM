@@ -10,11 +10,10 @@
 
 *   The API is currently deployed and accessible at:
 
-## [](https://atm-reuo.onrender.com)https://atm-reuo.onrender.com
+      [](https://atm-reuo.onrender.com)https://atm-reuo.onrender.com
 
 You can explore and interact with the API through its automatic documentation available at:
-
-*   [https://atm-reuo.onrender.com/docs](https://atm-reuo.onrender.com/docs)
+           [https://atm-reuo.onrender.com/docs](url)
 
 #
 ## 2\. Project Specification
@@ -186,7 +185,11 @@ These choices align with modern Python backend best practices and support future
 
 **High-level UML**
 
+![Architecture Diagram](High-level Architucure UML.png)
+
 **In-Depth UML**
+
+![Architecture Diagram](In-Depth Architucture UML.png)
 
 
 ## 8\. API Specification
@@ -211,6 +214,7 @@ These choices align with modern Python backend best practices and support future
 
 ## 10\. Client-Server Sequence Diagram
 
+![Architecture Diagram](Client-Server Sequence Diagram.png)
 
 
 ## 11\. Challenges met in project
