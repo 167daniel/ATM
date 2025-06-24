@@ -15,7 +15,61 @@
 You can explore and interact with the API through its automatic documentation available at:
            [https://atm-reuo.onrender.com/docs](url)
 
-#
+**How to Execute API Calls** 
+
+You can execute API calls in one of the following ways:
+
+---
+
+### 1. Using Swagger UI (Recommended)
+
+FastAPI provides an interactive web interface for testing endpoints.
+
+- Visit:  
+  [`https://atm-reuo.onrender.com/docs`](https://atm-reuo.onrender.com/docs)
+- Choose an endpoint, fill in parameters, and click **"Execute"**.
+
+No additional tools are required.
+
+---
+
+### 2. Using `curl` from the Command Line
+
+Make HTTP requests directly with `curl`. Examples:
+
+**Check balance**
+```bash
+curl -X GET https://atm-reuo.onrender.com/accounts/0/balance
+```
+
+**Deposit funds**
+```bash
+curl -X POST https://atm-reuo.onrender.com/accounts/0/deposit      -H "Content-Type: application/json"      -d '{"amount": 100}'
+```
+
+**Withdraw funds**
+```bash
+curl -X POST https://atm-reuo.onrender.com/accounts/0/withdraw      -H "Content-Type: application/json"      -d '{"amount": 50}'
+```
+
+---
+
+### 3. Using the Provided Python Script
+
+You can run the included `concurrent_clients.py` script to simulate various scenarios.
+
+Set the correct base URL in the script:
+
+```python
+BASE_URL = "https://atm-reuo.onrender.com/accounts"
+```
+
+Run the script:
+
+```bash
+python concurrent_clients.py
+```
+
 ## 2\. Project Specification
 
 **Objective:** Implement a minimal banking server that allows depositing and withdrawing funds from user accounts via a RESTful API.
