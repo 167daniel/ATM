@@ -214,7 +214,7 @@ These choices align with modern Python backend best practices and support future
 
 ## 10\. Client-Server Sequence Diagram
 
-![Architecture Diagram](Client-Server Sequence Diagram.png)
+![Architecture Diagram](Client-Server%20Sequence%20Diagram.png)
 
 
 ## 11\. Challenges met in project
