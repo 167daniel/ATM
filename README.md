@@ -12,6 +12,9 @@
 
       [](https://atm-reuo.onrender.com)https://atm-reuo.onrender.com
 
+*   In the interest of allowing testing, on Startup the Server initializes two accounts named: “0” and “1”, each with a positive balance of 1,000.
+
+
 You can explore and interact with the API through its automatic documentation available at:
            [https://atm-reuo.onrender.com/docs](url)
 
